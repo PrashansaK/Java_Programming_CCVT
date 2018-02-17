@@ -17,6 +17,14 @@ public class TestClass {
 			}
 		};
 		
+		/* Removed the class Temp which implemented the interface. Since, here we have
+		made an anonymous class which is implementing the interface and overriding its
+		method print.
+		Output:-
+		Hello
+		Hello World */
+		
+		
 		obj.print();
 		
 	}
